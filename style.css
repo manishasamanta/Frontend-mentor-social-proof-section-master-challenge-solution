@@ -1,0 +1,50 @@
+body{
+  background: url(\images\\bg-pattern-top-desktop.svg) right bottom no-repeat, url(\images\\bg-pattern-bottom-desktop.svg) left top repeat;
+  background-size: cover;
+  margin: 0px;
+  font-size: 15px;
+  display: block;
+  font-family: 'Spartan', sans-serif;
+}
+
+
+
+.sidebar{
+  margin: 2% 5% auto auto;
+  display: block;
+  right: 5%;
+  top:5%;
+  height: 25%;
+  width: 25%;
+
+}
+
+.small_box{
+  position: absolute;
+  display: block;
+  background-color: hsl(300, 24%, 96%);
+  height: 5%;
+  width:28%;
+  color: hsl(300, 43%, 22%);
+
+  padding-bottom: 0.75%;
+  padding-top: 0.5%;
+  padding-left: 1%;
+
+}
+
+
+
+.square_box{
+  background-color:hsl(300, 43%, 22%);
+  position: absolute;
+  height: 20%;
+  width:18%;
+  display: block;
+  padding: 2%;
+  color: White;
+  border-radius: 5%;
+}
+.checked {
+  color: #FC9918;
+}
